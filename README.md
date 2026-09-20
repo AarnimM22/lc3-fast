@@ -8,7 +8,7 @@ and transmits it, and an nRF5340 receives, decodes, and drives I2S.
 The codec starts from [Google's `liblc3`](https://github.com/google/liblc3), but
 it is **not LC3 or LC3plus compatible**. It keeps the useful core of the codec
 while removing or approximating expensive analysis stages. This spends more
-radio bandwidth to save CPU time—a good trade for a dedicated short-range
+radio bandwidth to save CPU time-a good trade for a dedicated short-range
 wireless audio link, but the opposite of what a general-purpose codec normally
 tries to do.
 
@@ -49,8 +49,8 @@ each short piece of audio takes computation. On a 64 MHz nRF52840, that work
 competes with USB input, packet preparation, radio interrupts, and the strict
 cadence of a low-latency audio stream.
 
-In this project's measurements, the mostly stock Google encoder—already with
-the long-term postfilter disabled—averaged about **2.62 ms** for a 2.5 ms stereo
+In this project's measurements, the mostly stock Google encoder-already with
+the long-term postfilter disabled-averaged about **2.62 ms** for a 2.5 ms stereo
 frame at 320 kb/s. That is already slower than the rate at which frames arrive,
 before allowing for the rest of the transmitter.
 
@@ -136,7 +136,7 @@ This shortcut saves CPU time, but it is also one of the clearest quality
 tradeoffs. Follow-up transient testing found that restoring the original
 constant-size gain/budget/refinement policy improved waveform accuracy much
 more than merely restoring the initial search. In other words, the faster rate
-control—not only its first estimate—is a meaningful source of the remaining
+control-not only its first estimate-is a meaningful source of the remaining
 artifacts.
 
 ### TNS disabled
@@ -275,18 +275,18 @@ with the transient follow-up in
 
 ## Repository guide
 
-- [`firmware/benchmark/src`](firmware/benchmark/src) — codec wrapper, custom SNS
+- [`firmware/benchmark/src`](firmware/benchmark/src) - codec wrapper, custom SNS
   and rate-control code, USB input, radio transport, and benchmark application.
-- [`firmware/benchmark/app_core`](firmware/benchmark/app_core) — nRF5340
+- [`firmware/benchmark/app_core`](firmware/benchmark/app_core) - nRF5340
   application-core decoder, I2S playback, buffering, and clock recovery.
-- [`tools/prepare-lc3-custom.py`](tools/prepare-lc3-custom.py) — reproducibly
+- [`tools/prepare-lc3-custom.py`](tools/prepare-lc3-custom.py) - reproducibly
   generates the custom codec units from the pinned Google source. It verifies
   exact source matches instead of modifying the downloaded tree in place.
-- [`tools/audio-bench.ps1`](tools/audio-bench.ps1) — builds, flashes, and captures
+- [`tools/audio-bench.ps1`](tools/audio-bench.ps1) - builds, flashes, and captures
   the Nordic test targets.
-- [`tools/test-lc3-custom.py`](tools/test-lc3-custom.py) — host signal, decode,
+- [`tools/test-lc3-custom.py`](tools/test-lc3-custom.py) - host signal, decode,
   loss, and recovery tests.
-- [`firmware/results`](firmware/results) — benchmark archive. Human-readable
+- [`firmware/results`](firmware/results) - benchmark archive. Human-readable
   reports and compact result summaries are versioned; bulky raw logs, firmware
   images, generated source snapshots, and local captures are ignored.
 
@@ -353,5 +353,5 @@ not a finished reusable codec library or shipping radio protocol.
 Within that scope, the central result is already demonstrated: a 64 MHz
 nRF52840 can accept real 48 kHz/24-bit stereo USB audio, encode it with a
 transform codec, and stream it reliably to an nRF5340 that decodes and clocks it
-out over I2S—at a quality level that becomes effectively transparent near
+out over I2S-at a quality level that becomes effectively transparent near
 400 kb/s.
