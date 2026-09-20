@@ -1,0 +1,29 @@
+{
+  "expected_pcm_word_hash": "7b4c85c4caed4b6d",
+  "expected_pcm_crc32": "3188fbad",
+  "frames_per_case": 20000,
+  "source_snapshot_files_checked": 37,
+  "results": [
+    {
+      "id": 911,
+      "frames": 20000,
+      "offered": 20000,
+      "lost_input": 0,
+      "pcm_integrity_pass": true,
+      "throughput_pass": true,
+      "production_deadline_pass": false,
+      "delivery_deadline_pass": false
+    },
+    {
+      "id": 912,
+      "frames": 19422,
+      "offered": 20000,
+      "lost_input": 578,
+      "pcm_integrity_pass": false,
+      "throughput_pass": false,
+      "production_deadline_pass": false,
+      "delivery_deadline_pass": false
+    }
+  ],
+  "note": "Validation passed by correctly preserving both the 320 kb/s throughput success and the timing/400 kb/s failures."
+}

@@ -1,0 +1,54 @@
+﻿foo_abx 2.2.3 report
+foobar2000 v2.25.10
+2026-09-20 09:28:04
+
+File A: lc3-fast-400k.wav
+SHA1: ed7608a6569e86148da531fe27fba43cf6f51d86
+File B: reference-48k24.wav
+SHA1: a570d7b15fdfd5ff548548aeed8f8cbd581850a6
+
+Output:
+Default : Primary Sound Driver
+Crossfading: NO
+
+09:28:04 : Test started.
+09:28:49 : Test restarted.
+09:28:49 : 01/01
+09:29:04 : Test restarted.
+09:29:04 : 01/02
+09:29:16 : Test restarted.
+09:29:16 : 02/03
+09:29:38 : Test restarted.
+09:29:38 : 03/04
+09:29:55 : Test restarted.
+09:29:55 : 04/05
+09:30:21 : Test restarted.
+09:30:21 : 05/06
+09:30:49 : Test restarted.
+09:30:49 : 06/07
+09:31:00 : Test restarted.
+09:31:00 : 06/08
+09:31:37 : Test restarted.
+09:31:37 : 07/09
+09:31:56 : Test restarted.
+09:31:56 : 08/10
+09:32:05 : Test restarted.
+09:32:05 : 08/11
+09:32:30 : Test restarted.
+09:32:30 : 09/12
+09:32:52 : Test restarted.
+09:32:52 : 09/13
+09:33:19 : Test restarted.
+09:33:19 : 09/14
+09:33:38 : Test restarted.
+09:33:38 : 09/15
+09:33:50 : Test restarted.
+09:33:50 : 10/16
+09:33:50 : Test finished.
+
+ ---------- 
+Total: 10/16
+p-value: 0.2272 (22.72%)
+
+ -- signature -- 
+6fa868585514a6b2e935fef9331667b22fad9142

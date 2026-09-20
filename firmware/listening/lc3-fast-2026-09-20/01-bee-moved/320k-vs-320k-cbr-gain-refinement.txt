@@ -1,0 +1,54 @@
+﻿foo_abx 2.2.3 report
+foobar2000 v2.25.10
+2026-09-20 11:27:25
+
+File A: 320-current.wav
+SHA1: 5830a64888fa96a0e39a9674c9753181f7568df4
+File B: 320-cbr-gain-refinement.wav
+SHA1: d3e47cee9fb688cc5a12d1106d88f8128021bfdd
+
+Output:
+Default : Primary Sound Driver
+Crossfading: NO
+
+11:27:25 : Test started.
+11:28:16 : Test restarted.
+11:28:16 : 01/01
+11:28:43 : Test restarted.
+11:28:43 : 01/02
+11:28:49 : Test restarted.
+11:28:49 : 01/03
+11:29:02 : Test restarted.
+11:29:02 : 02/04
+11:29:11 : Test restarted.
+11:29:11 : 03/05
+11:29:28 : Test restarted.
+11:29:28 : 04/06
+11:30:09 : Test restarted.
+11:30:09 : 04/07
+11:30:16 : Test restarted.
+11:30:16 : 04/08
+11:30:22 : Test restarted.
+11:30:22 : 04/09
+11:30:30 : Test restarted.
+11:30:30 : 05/10
+11:30:35 : Test restarted.
+11:30:35 : 05/11
+11:30:51 : Test restarted.
+11:30:51 : 05/12
+11:31:24 : Test restarted.
+11:31:24 : 06/13
+11:31:30 : Test restarted.
+11:31:30 : 06/14
+11:31:47 : Test restarted.
+11:31:47 : 07/15
+11:32:00 : Test restarted.
+11:32:00 : 08/16
+11:32:00 : Test finished.
+
+ ---------- 
+Total: 8/16
+p-value: 0.5982 (59.82%)
+
+ -- signature -- 
+cca0259eb68c4f1dcab63cd4223f5ec57cb2a3d6

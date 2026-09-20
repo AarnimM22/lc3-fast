@@ -1,0 +1,218 @@
+{
+  "wav_count": 24,
+  "decoded_channel_packets": 906626,
+  "wav_bytes": 368353056,
+  "errors": 0,
+  "variants": [
+    {
+      "track": "01-bee-moved",
+      "target_kbps": 400.0,
+      "archive_stereo_frames": 15953,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.48779296875
+    },
+    {
+      "track": "01-bee-moved",
+      "target_kbps": 320.0,
+      "archive_stereo_frames": 15953,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.48974609375
+    },
+    {
+      "track": "01-bee-moved",
+      "target_kbps": 256.0,
+      "archive_stereo_frames": 15953,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.49609375
+    },
+    {
+      "track": "01-bee-moved",
+      "target_kbps": 224.0,
+      "archive_stereo_frames": 15953,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "01-bee-moved",
+      "target_kbps": 192.0,
+      "archive_stereo_frames": 15953,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.4765625
+    },
+    {
+      "track": "01-bee-moved",
+      "target_kbps": 160.0,
+      "archive_stereo_frames": 15953,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "01-bee-moved",
+      "target_kbps": 140.8,
+      "archive_stereo_frames": 15953,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.48828125
+    },
+    {
+      "track": "02-jazzy",
+      "target_kbps": 400.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.4921875
+    },
+    {
+      "track": "02-jazzy",
+      "target_kbps": 320.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "02-jazzy",
+      "target_kbps": 256.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "02-jazzy",
+      "target_kbps": 224.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "02-jazzy",
+      "target_kbps": 192.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.486328125
+    },
+    {
+      "track": "02-jazzy",
+      "target_kbps": 160.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.491455078125
+    },
+    {
+      "track": "02-jazzy",
+      "target_kbps": 140.8,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.4921875
+    },
+    {
+      "track": "03-techno-goa-industrial",
+      "target_kbps": 400.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.4921875
+    },
+    {
+      "track": "03-techno-goa-industrial",
+      "target_kbps": 320.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "03-techno-goa-industrial",
+      "target_kbps": 256.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "03-techno-goa-industrial",
+      "target_kbps": 224.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "03-techno-goa-industrial",
+      "target_kbps": 192.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "03-techno-goa-industrial",
+      "target_kbps": 160.0,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    },
+    {
+      "track": "03-techno-goa-industrial",
+      "target_kbps": 140.8,
+      "archive_stereo_frames": 24403,
+      "best_residual_lag_samples": [
+        0,
+        0
+      ],
+      "max_wav_vs_redecoded_difference_lsb": 1.484375
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Local build output
+.bench/
+
+# Editor and language caches
+.vscode/
+**/__pycache__/
+*.py[cod]
+
+# Large local input assets
+firmware/benchmark/*.wav
+
+# Benchmark runs contain raw logs, firmware binaries, generated codec copies,
+# and source snapshots. Keep the small reports and machine-readable summaries
+# that document the results, but do not version the reproducible bulk archive.
+firmware/results/**
+!firmware/results/**/
+!firmware/results/**/REPORT.md
+!firmware/results/**/NOTE.md
+!firmware/results/**/tables.md
+!firmware/results/**/summary.json
+!firmware/results/**/validation.json
+
+# Downloaded third-party sources and archives
+firmware/third_party/etsi/
+firmware/third_party/lc3plus/
+firmware/third_party/liblc3/
+firmware/third_party/opus/
+firmware/third_party/libsbc/
+firmware/third_party/wavpack-stream/
+firmware/third_party/*.tar.gz
+firmware/third_party/*.zip
+firmware/third_party/*-index.html
+
+# Listening-test source media and generated codec output
+firmware/listening/**/sources/
+firmware/listening/**/*.wav
+firmware/listening/**/*.lc3fast
+firmware/listening/**/*.dll
